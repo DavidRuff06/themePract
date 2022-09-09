@@ -11,4 +11,6 @@
     <color name="primaryTextColor">#000000</color>
 
     <color name="secondaryTextColor">#ffffff</color>
+
+    <color name="green">#11FF00</color>
 </resources>
