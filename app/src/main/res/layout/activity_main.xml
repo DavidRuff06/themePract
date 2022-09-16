@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
 
+
     <TextView
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"

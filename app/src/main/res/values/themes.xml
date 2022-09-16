@@ -13,5 +13,7 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
         <item name="android:textSize">@dimen/textViewFontSize</item>
+<item name="android:fontFamily">@font/playfairblack</item>
+        <item name="android:useDefaultMargins">true</item>
     </style>
 </resources>

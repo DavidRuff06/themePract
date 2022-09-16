@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <dimen name="textViewFontSize">25sp</dimen>
-
+<style name="textFont">fontttt</style>
 </resources>

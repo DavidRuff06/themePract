@@ -7,7 +7,14 @@
     <dimen name="bottomMargin">30dp</dimen>
     <dimen name="screenMargin">25dp</dimen>
     <dimen name="topPadding">15dp</dimen>
+
     <dimen name="editTextPadding">15dp</dimen>
+
+
     <dimen name="buttonWidth">220dp</dimen>
     <dimen name="buttonHeight">100dp</dimen>
+
+
+    <dimen name="tikTakButtonHeight">127dp</dimen>
+    <dimen name="tikTakButtonWidth">127dp</dimen>
 </resources>
