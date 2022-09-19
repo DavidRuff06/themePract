@@ -2,7 +2,7 @@ package com.example.themepractice;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.graphics.Color;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
 
     if(guess.equalsIgnoreCase(("fries"))){
         answerText.setText("CORRECT!!");
+        Intent intent = new Intent(this, ticktacktoe.class);
+        startActivity(intent);
         } else {
             answerText.setText("Try again");
         }
