@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class ticktacktoe extends AppCompatActivity {
     int turn = 0;
@@ -15,6 +16,7 @@ public class ticktacktoe extends AppCompatActivity {
     }
 
     public void playGame(View view){
+        TextView text = findViewById(R.id.player);
         Button button = (Button)view;
         switch (view.getId()){
             case R.id.button1:
@@ -28,8 +30,10 @@ public class ticktacktoe extends AppCompatActivity {
             case R.id.button9:
                 if(turn % 2 == 0) {
                     button.setText("X");
+                    text.setText("Player 2");
                 } else {
                     button.setText("O");
+                    text.setText("Player 1");
                 }
                 break;
 

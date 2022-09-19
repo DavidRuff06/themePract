@@ -2,10 +2,13 @@
 <resources>
     <dimen name="textViewWidth">150dp</dimen>
     <dimen name="textViewHeight">40dp</dimen>
+
     <dimen name="editTextWidth">350dp</dimen>
     <dimen name="editTextHeight">70dp</dimen>
+
     <dimen name="bottomMargin">100dp</dimen>
     <dimen name="screenMargin">25dp</dimen>
+
     <dimen name="topPadding">15dp</dimen>
 
     <dimen name="editTextPadding">15dp</dimen>
@@ -17,4 +20,7 @@
 
     <dimen name="tikTakButtonHeight">127dp</dimen>
     <dimen name="tikTakButtonWidth">127dp</dimen>
+
+    <dimen name="gridLeftPad">5dp</dimen>
+    <dimen name="gridRightPad">5dp</dimen>
 </resources>
